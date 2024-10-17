@@ -33,7 +33,7 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ;                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        Console.WriteLine("Сумма ряда = " + ds.GetSumSeries(startValue, stopValue));
+        Console.WriteLine("Сумма ряда = " + ds.GetMultiplySeries(startValue, stopValue));
         Console.ReadKey();
     }
 }
