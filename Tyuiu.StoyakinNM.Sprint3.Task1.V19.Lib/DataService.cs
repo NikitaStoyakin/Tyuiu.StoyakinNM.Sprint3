@@ -8,7 +8,7 @@ namespace Tyuiu.StoyakinNM.Sprint3.Task1.V19.Lib
             double multSeries = 1;
             while (startValue <= stopValue)
             {
-                multSeries = multSeries * ((Math.Cos(value)) + startValue/4);
+                multSeries = multSeries * (Math.Cos(value) + ((double)startValue / 4));
                 startValue++;
             }
             return Math.Round(multSeries, 3);
