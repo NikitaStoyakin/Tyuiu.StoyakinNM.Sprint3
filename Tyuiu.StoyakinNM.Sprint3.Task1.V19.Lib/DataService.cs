@@ -6,7 +6,7 @@ namespace Tyuiu.StoyakinNM.Sprint3.Task1.V19.Lib
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
             double multSeries = 1;
-            while (startValue > stopValue)
+            while (startValue <= stopValue)
             {
                 multSeries = multSeries + Math.Cos(value) + (startValue / 4);
             }

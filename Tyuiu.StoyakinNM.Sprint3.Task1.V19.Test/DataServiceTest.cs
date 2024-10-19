@@ -5,7 +5,7 @@ namespace Tyuiu.StoyakinNM.Sprint3.Task1.V19.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidGetMultiplySeries()
         {
             DataService ds = new DataService();
 
