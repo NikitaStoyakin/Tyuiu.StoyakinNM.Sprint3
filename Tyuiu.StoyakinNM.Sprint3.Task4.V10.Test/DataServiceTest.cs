@@ -14,7 +14,7 @@ namespace Tyuiu.StoyakinNM.Sprint3.Task4.V10.Test
 
             double res = ds.Calculate(StartValue, StopValue);
 
-            double wait = -0.117;
+            double wait = 0.014;
             Assert.AreEqual(wait, res);
         }
     }

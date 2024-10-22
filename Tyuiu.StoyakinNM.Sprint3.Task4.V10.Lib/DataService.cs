@@ -6,11 +6,12 @@ namespace Tyuiu.StoyakinNM.Sprint3.Task4.V10.Lib
         public double Calculate(int startValue, int stopValue)
         {
             double res = 1;
-            for (int x = startValue; x <= stopValue; x++)
+            int x;
+            for ( x = startValue; x <= stopValue; x++)
             {
                 if (x == 0)
                 {
-                    break;
+                    continue;
                 }
                 else
                 {
