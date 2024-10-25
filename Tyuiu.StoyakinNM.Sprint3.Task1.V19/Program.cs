@@ -23,7 +23,7 @@ internal class Program
         Console.WriteLine("***************************************************************************");
 
         int value = 1;
-        int startValue = 1;
+        int startValue = 1; 
         int stopValue = 9;
 
         Console.WriteLine("Переменная X = " + value);
