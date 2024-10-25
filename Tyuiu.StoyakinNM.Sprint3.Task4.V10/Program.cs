@@ -20,7 +20,7 @@ internal class Program
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
 
-        int StartValue = -5;
+        int StartValue = -5; 
         int StopValue = 5;
 
         Console.WriteLine("Старт шага = " + StartValue);
