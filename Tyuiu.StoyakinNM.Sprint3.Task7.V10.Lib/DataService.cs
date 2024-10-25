@@ -12,15 +12,9 @@ namespace Tyuiu.StoyakinNM.Sprint3.Task7.V10.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                if ( x == 0)
-                {
-                    y = 0;
-                }
-                else
-                {
+                
                     y = Math.Round(((5 * x + 2.5) / (Math.Sin(x) + 3)) + 2 * x + Math.Cos(x), 2);
-                    
-                }
+
                 valueArray[count] = y;
                 count++;
             }
