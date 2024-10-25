@@ -20,7 +20,7 @@ internal class Program
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
 
-        int x = 2;
+        int x = 2; 
         int startValue1 = 1;
         int startValue2 = 1;
         int stopValue1 = 3;
