@@ -19,7 +19,7 @@ internal class Program
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
 
-        string value = "have a nice time";
+        string value = "have a nice time"; 
         char chr = 'e';
 
         Console.WriteLine("Исходная строка = " + value);
