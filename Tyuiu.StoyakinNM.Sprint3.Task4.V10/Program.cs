@@ -7,7 +7,7 @@ internal class Program
         Console.Title = "Спринт #3 | Выполнил: Стоякин Н.М. | ПКТб-24-1";
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #3                                                               *");
-        Console.WriteLine("* Тема: Оператор цикла for                                                *");
+        Console.WriteLine("* Тема: Использование операторов continue и break в циклах                *");
         Console.WriteLine("* Задание #4                                                              *");
         Console.WriteLine("* Вариант #10                                                             *");
         Console.WriteLine("* Выполнил: Стоякин Никита Михайлович | ПКТб 24-1                         *");
